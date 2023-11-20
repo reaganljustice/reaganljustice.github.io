@@ -1,18 +1,38 @@
 body{
   background: pink;
   font-family: Times New Roman;
+  display: flex;
+  flex-wrap: wrap;
 }
 h1{
   color: black;
   text-align: center;
+  width: 100%;
+  display: block;
+}
+h1: hover{
+  color: hot pink;
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 .assign{
   display: flex;
   padding: 10px;
   margin: 10px;
   background: white;
+  border-radius: 20px;
+  display: block;
+  width: 20%;
+  box-shadow: 8px 8px black;
 }
 .assign img{
   width: 200px;
   padding: 10px;
+  
+}
+.assign img: hover{
+  width: 200px;
+  padding: 10px;
+  border: 2px
 }
