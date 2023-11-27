@@ -28,10 +28,9 @@ h1: hover{
 .assign img{
   width: 200px;
   padding: 10px;
-  
 }
 .assign img: hover{
   width: 200px;
   padding: 10px;
-  border: 2px
+  border: 2px;
 }
